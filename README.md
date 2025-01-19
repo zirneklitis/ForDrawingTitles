@@ -4,3 +4,5 @@ written using light weight.
 
 As the font name suggests, it's suitable for large font size not for
 small ones.
+
+<img src=LOGO-512.png>
