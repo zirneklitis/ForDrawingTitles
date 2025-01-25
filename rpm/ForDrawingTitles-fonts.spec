@@ -4,8 +4,8 @@
 
 Name:             %{fontname}-fonts
 Summary:          The font “For Drawing Titles” mimics the poster titles drawn by hand.
-Version:          1.0.0
-Release:          K02%{?dist}
+Version:          1.1.0
+Release:          K01%{?dist}
 Packager:         Kārlis Kalviškis
 License:          SIL OFL
 Group:            User Interface/X
@@ -21,10 +21,10 @@ BuildRequires:    mkfontscale
 %description
 
 But this font is not very hand-made – the outlines are clean. The font
-has four different weights – light, regular, bold and black. The weight
-changes the visual appearance but not the width or height of symbols.
-So the text written using the black weight takes the same space as
-written using light weight.
+has five different weights – light, regular, bold, semi-bold and black.
+The weight changes the visual appearance but not the width or height
+of symbols. So the text written using the black weight takes the same
+space as written using light weight.
 
 As the font name suggests, it's suitable for large font size not for
 small ones.
@@ -73,5 +73,7 @@ cp AUTHORS ChangeLog COPYING README TODO ${RPM_BUILD_ROOT}%{_docdir}/%{fontname}
 
 %changelog
 
+* Sat Jan 25 2025 Kārlis Kalviškis <karlo@lu.lv> - 1.1.0-K01
+- Semi-Bold weight added.
 * Mon Jan 20 2025 Kārlis Kalviškis <karlo@lu.lv> - 1.0.0-K02
 - Inital packaging
